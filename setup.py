@@ -9,9 +9,11 @@ if __name__ == '__main__':
   setuptools.setup(
     version = VERSION,
     name = "distrib-test-2",
-    url='https://github.com/pp-mo/distrib_test_2',
+#    url='https://github.com/pp-mo/distrib_test_2',
     packages = [SRC_DIR],
     author='ppmo',
     author_email='avd-support@metoffice.gov.uk',
+    
+    install_requires = ['nose']
 )
 
