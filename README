@@ -1,0 +1,10 @@
+distribution-test project
+  PyPI name : 'distrib-test-2'
+
+New version needs to be published to PyPI
+
+Just do as follows ...
+  <in this dir>$ python setup.py sdist register
+
+can then be installed with
+  pip install distrib-test-2
